@@ -14,9 +14,9 @@ async function bootstrap() {
   )
 
   const config = new DocumentBuilder()
-    .setTitle('Node.js Course')
+    .setTitle('USERS Service')
     .setDescription(
-      'Node.js Rest API - NestJs, Typescript, DDD, Clean Architecture and Automated Tests',
+      'Microsservico responsável pela autenticação na aplicação',
     )
     .setVersion('1.0.0')
     .addBearerAuth({
