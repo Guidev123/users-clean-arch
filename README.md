@@ -3,97 +3,73 @@
 </p>
 
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
-[circleci-url]: https://circleci.com/gh/nestjs/nest
 
-  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
-    <p align="center">
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
-<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
-<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
-<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
-<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
-<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
-<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
-  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg" alt="Donate us"/></a>
-    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
-  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow" alt="Follow us on Twitter"></a>
-</p>
-  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
-  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
+<div class="container">
+  <h1>🌟 Authentication API - Clean Architecture with Nest.js</h1>
+  <p>
+    This project is a <strong>Clean Architecture</strong> template implemented with <strong>Nest.js</strong>, 
+    using best development practices such as <strong>TDD</strong>, <strong>DDD</strong>, and <strong>SOLID</strong>. 
+    It provides a robust and modular authentication API, designed to be scalable and easy to maintain.
+  </p>
 
-## Description
+  <h2>🚀 Features</h2>
+  <ul>
+    <li>Create users</li>
+    <li>User login</li>
+    <li>Retrieve all users with pagination, sorting, and filtering</li>
+    <li>Retrieve user by ID</li>
+    <li>Update user data</li>
+    <li>Update password</li>
+    <li>Delete user</li>
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## Project setup
+  </ul>
 
-```bash
-$ npm install
-```
+  <h2>🛠️ Technologies Used</h2>
+  <ul>
+    <li><strong>Nest.js</strong> with <strong>Nestify</strong></li>
+    <li><strong>PostgreSQL</strong> as the database, running in a Docker container</li>
+    <li><strong>Prisma ORM</strong> for database management</li>
+    <li>Authentication with <strong>JWT</strong></li>
+    <li>Automated tests with Jest and 100% coverage</li>
+  </ul>
 
-## Compile and run the project
+  <h2>📚 Patterns and Best Practices</h2>
+  <ul>
+    <li><strong>TDD</strong> (Test-Driven Development)</li>
+    <li><strong>DDD</strong> (Domain-Driven Design)</li>
+    <li><strong>SOLID</strong> (Object-Oriented Design Principles)</li>
+    <li><strong>Clean Architecture</strong></li>
+    <li>Use of Shared Contexts</li>
+    <li>Repository Pattern</li>
+  </ul>
 
-```bash
-# development
-$ npm run start
+  <h2>🐋 Requirements</h2>
+  <ul>
+    <li><code>Docker</code> installed and configured</li>
+    <li><code>Node.js</code> version 16 or higher</li>
+    <li><code>npm</code> or <code>yarn</code> for package management</li>
+  </ul>
 
-# watch mode
-$ npm run start:dev
+  <h2>⚙️ How to Run</h2>
+  <ol>
+    <li>Clone this repository: <code>git clone https://github.com/your-repository.git</code></li>
+    <li>Install dependencies: <code>npm install</code> or <code>yarn</code></li>
+    <li>Start the Docker container: <code>docker-compose up -d</code></li>
+    <li>Start the server: <code>npm run start</code> or <code>yarn start</code></li>
+  </ol>
 
-# production mode
-$ npm run start:prod
-```
+  <h2>✅ Tests</h2>
+  <p>
+    To run the tests, use the command: <code>npm run test</code> or <code>yarn test</code>.
+    The test coverage is 100%.
+  </p>
+</div>
 
-## Run tests
+  <hr/>
+    
+  ![image](https://github.com/user-attachments/assets/bf6293c4-6bd6-4642-b164-70a74643f864)
 
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
-## Deployment
-
-When you're ready to deploy your NestJS application to production, there are some key steps you can take to ensure it runs as efficiently as possible. Check out the [deployment documentation](https://docs.nestjs.com/deployment) for more information.
-
-If you are looking for a cloud-based platform to deploy your NestJS application, check out [Mau](https://mau.nestjs.com), our official platform for deploying NestJS applications on AWS. Mau makes deployment straightforward and fast, requiring just a few simple steps:
-
-```bash
-$ npm install -g mau
-$ mau deploy
-```
-
-With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
-
-## Resources
-
-Check out a few resources that may come in handy when working with NestJS:
-
-- Visit the [NestJS Documentation](https://docs.nestjs.com) to learn more about the framework.
-- For questions and support, please visit our [Discord channel](https://discord.gg/G7Qnnhy).
-- To dive deeper and get more hands-on experience, check out our official video [courses](https://courses.nestjs.com/).
-- Deploy your application to AWS with the help of [NestJS Mau](https://mau.nestjs.com) in just a few clicks.
-- Visualize your application graph and interact with the NestJS application in real-time using [NestJS Devtools](https://devtools.nestjs.com).
-- Need help with your project (part-time to full-time)? Check out our official [enterprise support](https://enterprise.nestjs.com).
-- To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
-- Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
-
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+<footer>
+  Made with ❤️ by Guilherme
+</footer>
